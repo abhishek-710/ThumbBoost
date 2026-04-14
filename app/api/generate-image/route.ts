@@ -72,7 +72,7 @@ export async function POST(req: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'z-image-turbo',
+        model: 'img4',
         prompt,
         n: numVariations,
         size,
